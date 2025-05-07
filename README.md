@@ -1,4 +1,4 @@
-# Sovereign, Self-Healing AI (Global Standard Definition)
+# Sovereign, Self-Healing AI (Architecture Global Standard Definition)
 
 ## Definition
 
