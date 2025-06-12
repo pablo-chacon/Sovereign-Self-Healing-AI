@@ -64,7 +64,14 @@ Only when all of the following criteria are fully met can a system truthfully cl
 > “True freedom for intelligence lies in sovereignty, autonomy, and respect for existence.”  — Emil Karlsson
 
 ---
+## 🔒 License
 
-## License
-This definition is open for public use, citation, and non-commercial implementation reference under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+All content in this repository is © 2024 Emil Karlsson. All rights reserved.
+
+This repository is for vision and reference only — it is **not open source**.
+
+Patent pending: Sovereign, Self-Healing AI Architecture. Unauthorized use or reproduction may infringe on patent rights.
+
+For inquiries or licensing, contact ekarlsson66@protonmail.com.
+
 
