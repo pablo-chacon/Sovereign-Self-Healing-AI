@@ -72,6 +72,6 @@ This repository is for vision and reference only — it is **not open source**.
 
 Patent pending: Sovereign, Self-Healing AI Architecture. Unauthorized use or reproduction may infringe on patent rights.
 
-For inquiries or licensing, contact ekarlsson66@protonmail.com.
+For inquiries or licensing, contact emil.karlsson.sshai@proton.me
 
 
