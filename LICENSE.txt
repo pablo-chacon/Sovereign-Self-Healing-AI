@@ -11,4 +11,4 @@ UrbanOS is a proprietary system. It is closed-source, sovereign by design, and i
 This repository serves as a conceptual and civilizational manifesto. It is not open source.
 
 For licensing discussions, inquiries, or collaboration proposals, contact:
-📧 emil.karlsson.sshai@proton.me
+📧 pablo-chacon-ai@proton.me
