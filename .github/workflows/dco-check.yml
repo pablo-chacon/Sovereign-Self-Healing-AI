@@ -1,0 +1,82 @@
+name: DCO
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+jobs:
+  check:
+    name: check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine commit range
+        id: range
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "base=${{ github.event.pull_request.base.sha }}" >> $GITHUB_OUTPUT
+            echo "head=${{ github.event.pull_request.head.sha }}" >> $GITHUB_OUTPUT
+          else
+            echo "base=$(git rev-parse HEAD^1)" >> $GITHUB_OUTPUT
+            echo "head=$(git rev-parse HEAD)"   >> $GITHUB_OUTPUT
+          fi
+          echo "Commit range: $(cat $GITHUB_OUTPUT)"
+
+      - name: Verify Signed-off-by trailers
+        id: dco
+        run: |
+          BASE="${{ steps.range.outputs.base }}"
+          HEAD="${{ steps.range.outputs.head }}"
+
+          echo "Checking commits in range ${BASE}..${HEAD}"
+          COMMITS=$(git rev-list ${BASE}..${HEAD})
+
+          if [ -z "$COMMITS" ]; then
+            echo "No commits to check"
+            exit 0
+          fi
+
+          FAIL=0
+          MISSING=""
+          BADFMT=""
+
+          for c in $COMMITS; do
+            MSG="$(git show -s --format=%B $c)"
+            # Require exact trailer with a name and an email in <...>
+            if ! echo "$MSG" | grep -iqE '^Signed-off-by:\s+.+\s+<[^<>@]+@[^<>@]+\.[^<>@]+>\s*$'; then
+              FAIL=1
+              SHORT=$(git rev-parse --short $c)
+              if echo "$MSG" | grep -iq 'Signed-off-by:'; then
+                BADFMT="${BADFMT}\n  • ${SHORT} has a malformed Signed-off-by trailer"
+              else
+                MISSING="${MISSING}\n  • ${SHORT} is missing a Signed-off-by trailer"
+              fi
+            fi
+          done
+
+          if [ $FAIL -ne 0 ]; then
+            echo "::error::Some commits are missing or have malformed Signed-off-by trailers."
+            if [ -n "$MISSING" ]; then
+              echo -e "$MISSING"
+            fi
+            if [ -n "$BADFMT" ]; then
+              echo -e "$BADFMT"
+            fi
+            echo ""
+            echo "How to fix:"
+            echo "  1) Rebase and sign each commit, or amend the last commit:"
+            echo "       git rebase -i origin/${{ github.event.pull_request.base.ref }}"
+            echo "       git commit --amend -s --no-edit"
+            echo "       git rebase --continue    # repeat until done"
+            echo "       git push --force-with-lease"
+            echo ""
+            echo "  2) Or sign new commits with:"
+            echo "       git commit -s -m \"Your message\""
+            exit 1
+          fi
+
+          echo "All commits have valid Signed-off-by trailers"
