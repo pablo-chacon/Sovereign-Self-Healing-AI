@@ -39,4 +39,5 @@ By submitting a pull request or Contribution, you agree to the terms of this Con
 To indicate acceptance, include the following line in your commit message:
 
 ```plaintext
-Signed-off-by: Emil Karlsson <pablo-chacon-ai@proton.me>
+Signed-off-by: Your Name <your.email@example.com>
+
