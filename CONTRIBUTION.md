@@ -1,12 +1,6 @@
-
----
-
-## **2. New `CONTRIBUTING.md` (ready to drop in)**
-
-```
 # Contributing to Sovereign, Self-Healing AI (SSHAI)
 
-We welcome contributions to this project. To ensure clarity of rights and responsibilities, all contributors must agree to the Contributor License Agreement (CLA)](CLA.md).
+We welcome contributions to this project. To ensure clarity of rights and responsibilities, all contributors must agree to the [Contributor License Agreement (CLA)](CLA.md).
 
 ---
 
@@ -23,5 +17,4 @@ We welcome contributions to this project. To ensure clarity of rights and respon
 
 All commits must be signed off to confirm agreement with the CLA. This is done by adding the following line to the end of your commit message:
 
-```
 Signed-off-by: Emil Karlsson pablo-chacon-ai@proton.me
