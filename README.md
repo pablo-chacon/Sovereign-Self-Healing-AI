@@ -96,7 +96,7 @@ A governance level system based on Sovereign, Self Healing AI would collect hist
 Emil Karlsson
 
 **Patent**
-Patent pending for the Sovereign, Self Healing AI Architecture. Unauthorized use or reproduction may infringe on patent rights.
+Patent pending for the [Sovereign, Self-Healing AI Architecture](https://github.com/pablo-chacon/Sovereign-Self-Healing-AI/wiki/Sovereign,-Self%E2%80%90Healing-AI-Architecture). Unauthorized use or reproduction may infringe on patent rights.
 
 **Contact**
 [pablo-chacon-ai@proton.me](mailto:pablo-chacon-ai@proton.me)
