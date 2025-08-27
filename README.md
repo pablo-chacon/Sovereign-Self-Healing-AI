@@ -8,6 +8,8 @@
 
 **Sovereign, Self Healing AI is an autonomous architecture that operates without human control, vendor lock in, or proprietary hardware. It makes deterministic decisions only from machine level data, continuously self heals when faults or anomalies appear, and optimizes flow for individuals and society alike. The result is a system that keeps itself healthy, and in doing so benefits each and every individual.**
 
+[[Sovereign, Self-Healing AI Architecture Whitepaper](https://github.com/pablo-chacon/Sovereign-Self-Healing-AI/wiki/SSHAIA-Whitepaper)]
+
 ---
 
 ## Definition
