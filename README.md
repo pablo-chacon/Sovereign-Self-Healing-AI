@@ -105,7 +105,7 @@ Sovereign, Self-Healing AI is deterministic and human-out-of-the-loop at runtime
 
 ## Individual Sovereignty within System Sovereignty
 
-UrbanOS demonstrates this principle clearly. No two people move in the same way, even if they share destinations or schedules. Some walk faster, others slower. Some prefer bicycles, scooters, or ride-hailing. The architecture observes machine-level truths about each client, such as speed, recurring spatial patterns, and real-time infrastructure conditions. Clients are segmented by behavior, not demographics. This ensures that routing respects both personal behavior and system constraints. The result is collective harmony through natural alignment.
+[UrbanOS](https://github.com/pablo-chacon/UrbanOS-POC) demonstrates this principle clearly. No two people move in the same way, even if they share destinations or schedules. Some walk faster, others slower. Some prefer bicycles, scooters, or ride-hailing. The architecture observes machine-level truths about each client, such as speed, recurring spatial patterns, and real-time infrastructure conditions. Clients are segmented by behavior, not demographics. This ensures that routing respects both personal behavior and system constraints. The result is collective harmony through natural alignment.
 
 ---
 
@@ -117,7 +117,7 @@ Individuals naturally seek the fastest and least effortful routes. When a majori
 
 ## Real-World Examples
 
-**UrbanOS**
+**[UrbanOS](https://github.com/pablo-chacon/UrbanOS-POC)**
 UrbanOS applies SSHAI to urban mobility. It optimizes flow to ensure minimal delay for individuals and avoids congestion system-wide. Individual benefit and collective stability reinforce one another.
 
 **Governance Applications**
