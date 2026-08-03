@@ -129,9 +129,6 @@ A governance-scale system built on SSHAI would analyze historical data, identify
 
 **Emil Karlsson**
 
-**Patent**
-Patent pending for the [Sovereign, Self-Healing AI Architecture](https://github.com/pablo-chacon/Sovereign-Self-Healing-AI/wiki/Sovereign,-Self%E2%80%90Healing-AI-Architecture). Unauthorized use or reproduction may infringe on patent rights.
-
 **Contact**
 [pablo-chacon-ai@proton.me](mailto:pablo-chacon-ai@proton.me)
 
