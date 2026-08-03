@@ -10,11 +10,7 @@ This Contributor License Agreement (“Agreement”) documents the terms under w
 
 You grant to the project maintainer and downstream users a perpetual, worldwide, non-exclusive, royalty-free, irrevocable license to use, reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute your Contributions as part of this project.
 
-## 2. Grant of Patent License
-
-You grant to the project maintainer and downstream users a perpetual, worldwide, non-exclusive, royalty-free, irrevocable patent license to make, use, sell, offer for sale, import, and otherwise transfer your Contributions, where such license applies only to patents that you own or control that are necessarily infringed by your Contributions.
-
-## 3. Representations
+## 2. Representations
 
 You represent that:
 
@@ -38,6 +34,5 @@ By submitting a pull request or Contribution, you agree to the terms of this Con
 
 To indicate acceptance, include the following line in your commit message:
 
-```plaintext
 Signed-off-by: Your Name <your.email@example.com>
 
