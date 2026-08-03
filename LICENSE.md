@@ -21,7 +21,7 @@ A copy of the Apache License is available at:
 ### 1. Patent and Authorship Rights
 
 1.1  The Author retains full moral rights of attribution and recognition as the inventor of the Sovereign Self-Healing AI Architecture and all direct derivative frameworks including the Hybrid AI System.
-1.2  Under the Apache License patent grant, each contributor grants a perpetual, worldwide, royalty-free, non-exclusive, irrevocable patent license covering their contributions.
+1.2  Under the Apache License, each contributor grants a perpetual, worldwide, royalty-free, non-exclusive, irrevocable patent license covering their contributions.
 1.3  If this work is commercialized, institutionalized, or otherwise integrated into a product or service, such use is permitted **only with express written notice to the Author or a public acknowledgment of origin** to preserve attribution and provenance.
 
 ### 2. Freedom of Use and Development
@@ -47,12 +47,6 @@ Permitted uses include scientific research, environmental monitoring, urban opti
 4.1  The Author and contributors provide this work “AS IS” without warranty of any kind.
 4.2  Each user, implementer, or distributor assumes full responsibility for ensuring that deployment of this technology complies with all applicable laws and the Ethical Use Principles above.
 4.3  By using this technology, you agree to indemnify the Author and contributors against any claim arising from unethical, unlawful, or harmful use.
-
-### 5. Patent Status and Future Versions
-
-A patent application covering the core Sovereign Self-Healing AI Architecture is pending.
-Upon issuance or rejection of the patent, this license may be revised to reflect the final legal status while maintaining the freedoms and restrictions stated herein.
-New versions of this license may be published by the Author to clarify scope or strengthen ethical protection.
 
 ---
 
